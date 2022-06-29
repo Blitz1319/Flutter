@@ -17,8 +17,7 @@ class MoedasPage extends StatefulWidget {
 class _MoedasPageState extends State<MoedasPage> {
   final tabela = MoedaRepository.tabela;
   late NumberFormat real;
-  
-  
+  late Map<String, String> loc;
   
   List<Moeda> selecionadas = [];
   late FavoritasRepository favoritas;
